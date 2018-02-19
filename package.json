@@ -3,7 +3,7 @@
 	"productName": "Google Translate",
 	"version": "0.1.1",
 	"description": "Google translate electron open source desktop app",
-	"productDescription": "This app is build for people who would like to have Google Translate like separate aplication. Hopefully, it should help you a lot with translations on daily basis.",
+	"productDescription": "This app is build for people who would like to have Google Translate like separate application. Hopefully, it should help you a lot with translations on daily basis.",
 	"license": "ISC",
 	"main": "main.js",
 	"author": "Srdjan Milic",
