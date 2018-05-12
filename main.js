@@ -14,7 +14,7 @@ let win;
 
 function createWindow() {
 	// Create the browser window.
-	win = new BrowserWindow({width: 1150, height: 730, show: false, title: 'Google Translate', icon: 'images/google-translate.png'})
+	win = new BrowserWindow({width: 1150, height: 780, show: false, title: 'Google Translate', icon: 'images/google-translate.png'})
 
 	// and load the index.html of the app.
 	win.loadURL('https://translate.google.com')
