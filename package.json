@@ -1,13 +1,13 @@
 {
 	"name": "google-translate",
 	"productName": "Google Translate",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "Google translate electron open source desktop app",
 	"productDescription": "This app is build for people who would like to have Google Translate like separate application. Hopefully, it should help you a lot with translations on daily basis.",
 	"license": "ISC",
 	"main": "main.js",
 	"author": "Srdjan Milic",
-	"homepage": "http://sdevelopment.info",
+	"homepage": "https://sdevelopment.info",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/SrdjanMilic/google-translate/"
@@ -16,13 +16,15 @@
 		"Srdjan Milic"
 	],
 	"scripts": {
-		"start": "electron ."
+		"start": "electron .",
+                "win64": "electron ./packager.js --overwrite=true"
 	},
 	"devDependencies": {
 		"electron": "^1.8.6",
 		"electron-icon-maker": "0.0.4"
 	},
 	"dependencies": {
-		"electron-context-menu": "^0.9.1"
+		"electron-context-menu": "^0.9.1",
+                "electron-winstaller": "^2.6.4"
 	}
 }
