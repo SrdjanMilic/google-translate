@@ -17,14 +17,14 @@
 	],
 	"scripts": {
 		"start": "electron .",
-                "win64": "electron ./packager.js --overwrite=true"
+		"win64": "electron ./packager.js --overwrite=true"
 	},
 	"devDependencies": {
-		"electron": "^1.8.6",
+		"electron": "^1.8.7",
 		"electron-icon-maker": "0.0.4"
 	},
 	"dependencies": {
 		"electron-context-menu": "^0.9.1",
-                "electron-winstaller": "^2.6.4"
+		"electron-winstaller": "^2.6.4"
 	}
 }
