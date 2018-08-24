@@ -21,7 +21,10 @@
 	},
 	"devDependencies": {
 		"electron": "^1.8.7",
-		"electron-icon-maker": "0.0.4"
+		"electron-icon-maker": "0.0.4",
+		"eslint": "^5.4.0",
+		"eslint-config-airbnb-base": "^13.1.0",
+		"eslint-plugin-import": "^2.14.0"
 	},
 	"dependencies": {
 		"electron-context-menu": "^0.9.1",
