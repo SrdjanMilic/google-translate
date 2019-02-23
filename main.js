@@ -1,13 +1,13 @@
 const {
   app,
-  BrowserWindow
+  BrowserWindow,
 } = require('electron');
 require('electron-context-menu')({
-  prepend: (params) => [{
+  prepend: params => [{
     label: 'Rainbow',
     // Only show it when right-clicking images
-    visible: params.mediaType === 'image'
-  }]
+    visible: params.mediaType === 'image',
+  }],
 });
 
 
@@ -18,15 +18,15 @@ let win;
 function createWindow() {
   // Create the browser window.
   win = new BrowserWindow({
-    width: 1150,
+    width: 1100,
     height: 800,
     show: false,
     title: 'Google Translate',
-    icon: 'images/google-translate.png'
-  })
+    icon: 'images/google-translate.png',
+  });
 
   // and load the index.html of the app.
-  win.loadURL('https://translate.google.com')
+  win.loadURL('https://translate.google.com');
 
   // Open the DevTools.
   // win.webContents.openDevTools()
@@ -36,7 +36,7 @@ function createWindow() {
     // Dereference the window object, usually you would store windows
     // in an array if your app supports multi windows, this is the time
     // when you should delete the corresponding element.
-    win = null
+    win = null;
   });
 
   win.once('ready-to-show', () => {
