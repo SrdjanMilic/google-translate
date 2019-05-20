@@ -16,4 +16,3 @@ To locally start the application from source, you will need to have [node.js](ht
 
 1. npm update
 2. npm start
-
