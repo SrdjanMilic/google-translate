@@ -3,7 +3,6 @@
   "productName": "Google Translate",
   "version": "v0.1.2",
   "description": "Electron multi platform desktop app",
-  "productDescription": "This app is build for people who would like to have Google Translate like separate application. Hopefully, it should help you a lot with translations on daily basis.",
   "license": "MIT",
   "main": "main.js",
   "author": "Srdjan Milic",
