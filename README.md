@@ -15,5 +15,5 @@ For Linux users, there is `google-translate.desktop` file provided in the assets
 
 To locally start the application from source, you will need to have [node.js](https://nodejs.org/en/) installed, then cd to directory and run:
 
-1. npm update
+1. npm install
 2. npm start
