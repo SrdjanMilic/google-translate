@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Google Translate
+Comment=Electron Application
+GenericName=Unofficial Google Translate desktop application
+Exec=google-translate %U
+Icon=/usr/lib/google-translate/resources/app/icons/png/256x256.png
+Type=Application
+StartupNotify=true
+Categories=Qt;Utility;
+Keywords=google;translate;

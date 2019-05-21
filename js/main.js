@@ -1,4 +1,6 @@
 const { app, BrowserWindow } = require('electron');
+const path = require('path');
+
 require('electron-context-menu')({
   prepend: (params) => [{
     label: 'Rainbow',
@@ -16,9 +18,11 @@ function createWindow() {
   win = new BrowserWindow({
     width: 1150,
     height: 780,
+    minWidth: 1150,
+    minHeight: 780,
     show: false,
     title: 'Google Translate',
-    icon: 'images/google-translate.png'
+    icon: path.join(__dirname, '../icons/png/64x64.png')
   });
 
   // and load the index.html of the app.
