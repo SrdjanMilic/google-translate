@@ -1,7 +1,7 @@
 {
   "name": "google-translate",
   "version": "0.1.3",
-  "description": "Electron multi platform desktop app",
+  "description": "Electron Application",
   "license": "MIT",
   "main": "js/main.js",
   "author": "Srdjan Milic",
