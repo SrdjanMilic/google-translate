@@ -26,7 +26,9 @@ function createWindow() {
   });
 
   // and load the index.html of the app.
-  win.loadURL('https://translate.google.com');
+  win.loadURL('https://translate.google.com', {
+    userAgent: 'Chrome'
+  });
 
   // Open the DevTools.
   // win.webContents.openDevTools()
