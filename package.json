@@ -5,7 +5,6 @@
   "license": "MIT",
   "main": "js/main.js",
   "author": "Srdjan Milic",
-  "homepage": "https://sdevelopment.info",
   "repository": {
     "type": "git",
     "url": "https://github.com/SrdjanMilic/google-translate/"
@@ -24,6 +23,7 @@
     "electron-prebuilt-compile": "4.0.0"
   },
   "dependencies": {
+    "electron": "^8.2.3",
     "electron-compile": "^6.4.4",
     "electron-context-menu": "^0.9.1",
     "electron-squirrel-startup": "^1.0.0"
