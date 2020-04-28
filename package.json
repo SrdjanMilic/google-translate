@@ -1,29 +1,31 @@
 {
   "name": "google-translate",
-  "version": "0.1.3",
-  "description": "Electron Application",
-  "license": "MIT",
+  "version": "0.1.4",
+  "description": "Google Translate",
+  "productDescription": "Electron multi-platform desktop app",
+  "license": "GPL-3.0",
   "main": "js/main.js",
   "author": "Srdjan Milic",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/SrdjanMilic/google-translate/"
-  },
+  "maintainers": [
+    "Srdjan Milic"
+  ],
+  "repository": "github.com:SrdjanMilic/google-translate",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
-    "make": "electron-forge make"
+    "make": "electron-forge make",
+    "icons": "./node_modules/.bin/electron-icon-maker --input=/home/srdjanm/Projects/Electron/Google-Translate/assets/icon.png --output=./"
   },
   "devDependencies": {
     "babel-plugin-transform-async-to-generator": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "electron": "^8.2.3",
     "electron-forge": "^5.2.4",
     "electron-icon-maker": "0.0.4",
     "electron-prebuilt-compile": "4.0.0"
   },
   "dependencies": {
-    "electron": "^8.2.3",
     "electron-compile": "^6.4.4",
     "electron-context-menu": "^0.9.1",
     "electron-squirrel-startup": "^1.0.0"
@@ -42,21 +44,27 @@
         ]
       },
       "electronPackagerConfig": {
-        "packageManager": "npm"
+        "packageManager": "npm",
+        "icon": "icons/win/icon.ico",
+        "ignore": [
+          ".vscode",
+          "assets",
+          "out",
+          "Screenshot_20190521_100346.png"
+        ]
       },
       "electronWinstallerConfig": {
-        "name": "Google Translate"
+        "name": "Google-Translate"
       },
       "electronInstallerDebian": {
-        "name": "Google Translate"
+        "icon": "icons/png/256x256.png"
       },
-      "electronInstallerRedhat": {},
       "github_repository": {
-        "owner": "",
-        "name": ""
+        "owner": "SrdjanMilic",
+        "name": "https://github.com/SrdjanMilic/google-translate"
       },
       "windowsStoreConfig": {
-        "packageName": "",
+        "packageName": "Google-Translate",
         "name": "Google Translate"
       }
     }
