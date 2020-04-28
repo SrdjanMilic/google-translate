@@ -1,6 +1,6 @@
 # Google Translate - Unofficial Desktop Application
 
-Standallone desktop app that render default google translate page.  
+Stand alone desktop app that render default google translate page.  
 Hopefully, it should help if you working with translations a lot.
 
 **Usage:**
