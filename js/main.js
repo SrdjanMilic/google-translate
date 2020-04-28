@@ -16,13 +16,15 @@ let win;
 function createWindow() {
   // Create the browser window.
   win = new BrowserWindow({
-    width: 1150,
-    height: 780,
-    minWidth: 1150,
-    minHeight: 780,
+    webPreferences: {
+      nodeIntegration: true
+    },
+    width: 1200,
+    height: 800,
+    minWidth: 1100,
+    minHeight: 750,
     show: false,
-    title: 'Google Translate',
-    icon: path.join(__dirname, '../icons/png/64x64.png')
+    icon: path.join(__dirname, '../icons/png/128x128.png')
   });
 
   // and load the index.html of the app.
